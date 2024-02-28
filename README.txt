@@ -11,6 +11,16 @@ O projeto deve contar as seguintes rotas:
     - cadastro/usuario
     - contato
 
+Na rota cadastro/usuario está sendo usado querystring,
+eis aqui um exemplo:
+
+- http://localhost:8081/cadastro/usuario?name=%22Silas%22&lastname=%22Leite%22&email=%22silas.leite2@fatec.sp.gov.br%22
+
+
+Abaixo está um exemplo da pagina de produto:
+- http://localhost:8081/produto/chevette/chevy/chevrolet/1981
+
+
 Para rodar antes instale as depedências com o 
 comando:
     - npm install
