@@ -25,6 +25,6 @@ app.get('/contato', (request, response) => {
     response.send('Página de contato!');
 });
 
-app.get('/produto/:automovel/:marca/:modelo/:ano', (request, response) => {
+app.get('/produtos/:automovel/:marca/:modelo/:ano', (request, response) => {
     response.send(`Página de detalhes do produto ${request.params.automovel}, modelo ${request.params.marca} - Marca: ${request.params.marca} do ano de ${request.params.ano}`);
 });
